@@ -1,6 +1,51 @@
 .contenedorhv{
     display: flex;
+    flex-direction: column;
     height: 100%;
     width: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* border: red solid; */
+}
+.skills{
+    width: 50%;
+    border:rgba(207, 203, 203, 0.733) solid;
+}
+.Dr{
+    flex-direction: row;
+    width: 100%;
+    /* border: green solid; */
+}
+.image-profile{
+    width: 200px; height:220px; position:static;
+}
+.perfilpro{
+    /* border: greenyellow solid; */
+    width: 100%;
+}
+.br{
     
+    border: rgba(207, 203, 203, 0.733) solid;
+    width: 50%;
+}
+.rowbox{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    /* flex-direction: row; */
+    /* border: black solid; */
+    height: 30%;
+}
+.centrar{
+    /* display: flex; */
+    text-align: center;
+}
+.refper{
+    /* border: green solid; */
+    border: rgba(207, 203, 203, 0.733) solid;
+
+}
+.profile-description{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    font-size: 15px;
+    color: dimgray;
 }
